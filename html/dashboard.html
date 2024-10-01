@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <!----------------------------------- css tages ----------------------------------->
+  <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+</head>
+
+<body id="full">
+
+  <!----------------------------------- login_area_start ----------------------------------->
+  <aside>
+    <div class="flex-shrink-0 p-3" style="width: 280px;">
+      <a class="close_btn"><i class="fa-solid fa-xmark"></i></a>
+      <a href="./dashboard.html" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none  ">
+
+        <img src="./assets/image/logo/logo.png" alt="" class="img-fluid dash_logo">
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-2">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 sidebar_btn_mn collapsed"
+            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <i class="fa-solid fa-folder-plus"></i> Add Folder
+          </button>
+        </li>
+        <li class="mb-2">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 sidebar_btn_mn collapsed"
+            data-bs-toggle="modal" data-bs-target="#addadmin">
+            <i class="fa-solid fa-user-plus"></i> Add admin
+          </button>
+        </li>
+        <li class="mb-2">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 sidebar_btn_mn collapsed"
+            data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i> Log-Out
+          </button>
+
+        </li>
+
+      </ul>
+
+    </div>
+  </aside>
+  <section class="main_content">
+    <header>
+      <a href="./dashboard.html"> Dashboard</a>
+      <img src="./assets/image/logo/logo_1.svg" alt="" class="img-fluid logo_mobile">
+
+      <ul>
+
+        <li class="full_w" onclick="var el = document.getElementById('full'); el.requestFullscreen();">
+          <i class="fa-solid fa-expand"></i>
+        </li>
+        <li class="nav_icon sidebar_cotroll">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+        <li>
+          <img src="./assets/image/icons/user.svg" alt="">
+        </li>
+
+      </ul>
+    </header>
+    <div class="fils_area">
+      <div class="row">
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+
+
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-3">
+          <a href="./file.html">
+            <div class="files_box">
+              <img src="./assets/image/icons/files.svg" alt="">
+              <h4>vijay</h4>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© Copyright 2024 A2 Groups. All Rights Reserved</p>
+    </footer>
+  </section>
+
+
+  <!-- Modal_Add_Folder -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Create A Folder</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modeal_inner">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="form_box">
+                  <label for="">Folder Name</label>
+                  <input type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal_Add_Admin -->
+  <div class="modal fade" id="addadmin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Add New Admin</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modeal_inner">
+            <div class="row">
+              <div class="col-xl-12 mb-2">
+                <div class="form_box">
+                  <label for="">Full Name</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="col-xl-12 mb-2">
+                <div class="form_box">
+                  <label for="">Username</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="col-xl-12 mb-2">
+                <div class="form_box">
+                  <label for="">Email</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="col-xl-12 mb-2">
+                <div class="form_box">
+                  <label for="">Password</label>
+                  <input type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+          <button type="button" class="btn btn-primary">Add Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------------- script tages ----------------------------------->
+
+  <script src="./assets/bootstrap/bootstrap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
